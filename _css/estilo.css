@@ -1,12 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@font-face {
+    font-family: "FonteLogo" ;
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
 body {
 		
-    background-color: hsl(165, 81%, 93%, 0.5);
+    background-color: #dddddd;
     color: rgba(0,0,0, 1);
+}
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff ;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.9);
+    padding: 10px;
+    
 }
 
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 780px;
+    top: 70px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url(../_imagens//glass-logo-peq.jpg) no-repeat 0px 80px;
+}
+
+header#cabecalho h1 {
+    font-family: "FonteLogo";
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0, .6);
+    padding: 0px;
+    margin-bottom: 0px ;
+}
+
+header#cabecalho h2 {
+    font-family: 'Nerko One', cursive;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
 }
 
 /* Formatação de imagens com legendas */
@@ -49,16 +93,17 @@ nav#menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: 0px;
-    left: 100px;
+    top: -20px;
+    left: 300px;
+
 }
 
 nav#menu li {
     display: inline-block;
     background-color: #00ffea;
     padding: 10px;
-    margin: 2px;
     transition: background-color 1s;
+    margin: 2px 10px -10px 20px;
 }
 
 nav#menu li:hover {
@@ -78,3 +123,41 @@ nav#menu a:hover {
     color: #ffffff;
     text-decoration: underline;
 }    
+
+section#corpo {
+    display: block;
+    width: 520px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+table#tabelaspec {
+    border: 1px solid#606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: center; 
+}
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
