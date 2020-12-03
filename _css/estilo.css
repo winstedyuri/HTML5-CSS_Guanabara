@@ -35,7 +35,7 @@ a:hover {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 780px;
+    left: 1230px;
     top: 70px;
 }
 
@@ -103,16 +103,15 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
-
+    left: 750px;
 }
 
 nav#menu li {
     display: inline-block;
-    background-color: #00ffea;
+    background-color: #cecece;
     padding: 10px;
     transition: background-color 1s;
-    margin: 2px 10px -10px 20px;
+    margin: 5px 5px -20px 2px;
 }
 
 nav#menu li:hover {
@@ -248,3 +247,12 @@ footer#rodape p {
     text-align: center;
 }
 
+
+video#filme1{
+    margin: 0 0 10px 7px;
+}
+
+video#filme2{
+    width: 350px;
+    margin-top: -15px;
+}
